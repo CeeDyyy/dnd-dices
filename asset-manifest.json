@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dnd-dices/static/css/main.3562bd15.css",
+    "main.js": "/dnd-dices/static/js/main.df1f23ab.js",
+    "index.html": "/dnd-dices/index.html",
+    "main.3562bd15.css.map": "/dnd-dices/static/css/main.3562bd15.css.map",
+    "main.df1f23ab.js.map": "/dnd-dices/static/js/main.df1f23ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3562bd15.css",
+    "static/js/main.df1f23ab.js"
+  ]
+}
