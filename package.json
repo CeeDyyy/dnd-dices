@@ -1,5 +1,6 @@
 {
-  "name": "bruno-simons-20k-challenge",
+  "homepage": "https://CeeDyyy.github.io/dnd-dices",
+  "name": "dnd-dices",
   "version": "1.0.0",
   "description": "https://twitter.com/bruno_simon/status/1557355710089920513",
   "keywords": [
@@ -23,8 +24,12 @@
     "react-scripts": "5.0.1",
     "three": "0.145.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
